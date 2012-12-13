@@ -3,7 +3,7 @@
 <head>
   <title>RequirejsRails</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= requirejs_include_tag "application_2/main" %>
+  <%= requirejs_include_tag("application_2/main").gsub("/assets/application_2/main", "application_2/main").html_safe %>
   <%= csrf_meta_tags %>
 </head>
 <body>
