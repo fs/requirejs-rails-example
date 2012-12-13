@@ -1,2 +1,3 @@
 modules:
   - name: 'application_1/main'
+  - name: 'application_2/main'
